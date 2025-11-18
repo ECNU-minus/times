@@ -8,8 +8,8 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
-  article_count: 5
+  json_url: "https://raw.githubusercontent.com/ECNU-minus/Friend-Circle-Lite/main/sites.json"
+  article_count: 8
   merge_result:
     enable: false
     merge_json_url: "https://fc.liushen.fun"
@@ -35,7 +35,7 @@ email_push:
 #   website_info:       你的博客信息
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
-  enable: true
+  enable: false
   github_username: willow-god
   github_repo: Friend-Circle-Lite
   your_blog_url: https://blog.liushen.fun/
@@ -60,7 +60,9 @@ smtp:
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-   - name: "阮一峰"
-     url: "http://feeds.feedburner.com/ruanyifeng"
-  # - name: "無名小栈"
-  #   url: "https://blog.imsyy.top/rss.xml"
+  - name: "上海交通大学面向学生的教务通知"
+    url: "http://rsshub.umzzz.com/sjtu/jwc/students"
+  - name: "同济大学本科生院"
+    url: "https://rsshub.umzzz.com/tongji/bks"
+  - name: "吉林大学本科生院"
+    url: "https://rsshub.umzzz.com/jlu/jwc"
