@@ -402,8 +402,62 @@
 }
 
 #filter-container {
-    position: relative;
-    margin: 20px;
-    width: 90%;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#author-filter {
+    padding: 8px 16px;
+    font-size: 15px;
+    border: 1.5px solid #007BFF;
+    border-radius: 24px;
+    background-color: white;
+    color: #333;
+    outline: none;
+    min-width: 160px;
+    max-width: 300px;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 36px;
+}
+
+#author-filter:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+[data-theme="dark"] #filter-container {
+    background: rgba(40, 40, 40, 0.9);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] #author-filter {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #007BFF;
+}
+
+@media (max-width: 600px) {
+    #filter-container {
+        flex-direction: column;
+        padding: 16px;
+        gap: 10px;
+    }
+
+    #author-filter {
+        width: 100%;
+        min-width: auto;
+    }
 }
