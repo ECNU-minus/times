@@ -174,27 +174,14 @@ function initialize_fc_lite() {
 
     // 处理统计数据
     // const stats = data.statistical_data;
-    // statsContainer.innerHTML = `
-    //         <div>Powered by: <a href="https://github.com/willow-god/Friend-Circle-Lite" target="_blank">FriendCircleLite</a><br></div>
-    //         <div>Designed By: <a href="https://www.liushen.fun/" target="_blank">LiuShen</a><br></div>
-    //         <div>订阅:${stats.friends_num}   活跃:${stats.active_num}   总文章数:${stats.article_num}<br></div>
-    //         <div>更新时间:${stats.last_updated_time}</div>
-    //     `;
 
-    // const initialArticles = allArticles.slice(
-    //   start,
-    //   start + UserConfig.page_turning_number
-    // );
-    // renderArticles(initialArticles);
-    // start = initialArticles.length;
-
-    // if (start >= allArticles.length) {
-    //   loadMoreBtn.style.display = "none";
-    // } else {
-    //   loadMoreBtn.style.display = "block"; // 确保按钮显示
-    // }
     const stats = data.statistical_data;
-    statsContainer.innerHTML = `...`; // 保持不变
+    statsContainer.innerHTML = `
+            <div>Powered by: <a href="https://github.com/willow-god/Friend-Circle-Lite" target="_blank">FriendCircleLite</a><br></div>
+            <div>Designed By: <a href="https://www.liushen.fun/" target="_blank">LiuShen</a><br></div>
+            <div>订阅:${stats.friends_num}   活跃:${stats.active_num}   总文章数:${stats.article_num}<br></div>
+            <div>更新时间:${stats.last_updated_time}</div>
+        `;
 
     container.innerHTML = "";
     const initialArticles = currentFilteredArticles.slice(

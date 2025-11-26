@@ -400,3 +400,10 @@
     color: var(--author-color);
     text-decoration: none;
 }
+
+#filter-container {
+    position: relative;
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+}
