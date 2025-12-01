@@ -11,50 +11,61 @@ function initialize_fc_lite() {
   const root = document.getElementById("friend-circle-lite-root");
   if (!root) return;
 
-  // --- 1. Inject Styles (Updated for Top Layer) ---
+  // --- 1. Inject Styles ---
   const styleId = "fc-lite-multiselect-style";
   if (!document.getElementById(styleId)) {
     const style = document.createElement("style");
     style.id = styleId;
     style.textContent = `
-      .fcl-filter-wrapper { 
-        display: inline-block; 
-        margin-bottom: 15px; 
-        font-family: sans-serif; 
-      }
+      /* Button styles - Left aligned, no wrapper */
       .fcl-dropdown-btn { 
+        display: inline-flex; 
+        justify-content: space-between; 
+        align-items: center;
         padding: 8px 12px; 
         border: 1px solid #ccc; 
         border-radius: 4px; 
         background: #fff; 
         cursor: pointer; 
-        min-width: 120px; 
+        min-width: 150px; 
         text-align: left; 
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center;
+        margin-bottom: 20px; /* Space before articles */
         user-select: none;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #333;
       }
+      .fcl-dropdown-btn:hover { border-color: #888; }
+      
+      /* Dropdown Menu - Floating on top */
       .fcl-dropdown-content {
         display: none; 
-        /* Key Change: Fixed positioning to escape container overflow */
-        position: fixed; 
-        background-color: #f9f9f9; 
+        position: fixed; /* Fixed to viewport to ensure it floats on top */
+        background-color: #fff; 
         min-width: 200px; 
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-        /* Key Change: Very high Z-Index to stay on top */
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.15); 
         z-index: 99999; 
         max-height: 300px; 
         overflow-y: auto; 
         border-radius: 4px; 
-        padding: 5px; 
+        padding: 5px 0; 
         border: 1px solid #eee;
       }
       .fcl-dropdown-content.show { display: block; }
-      .fcl-checkbox-item { display: block; padding: 5px 10px; cursor: pointer; user-select: none; color: #333; font-size: 14px;}
-      .fcl-checkbox-item:hover { background-color: #f1f1f1; }
-      .fcl-checkbox-item input { margin-right: 8px; }
-      .fcl-arrow { font-size: 10px; margin-left: 10px; }
+      
+      /* Checkbox Items */
+      .fcl-checkbox-item { 
+        display: block; 
+        padding: 8px 12px; 
+        cursor: pointer; 
+        user-select: none; 
+        font-size: 14px; 
+        color: #333;
+        margin: 0;
+      }
+      .fcl-checkbox-item:hover { background-color: #f5f5f5; }
+      .fcl-checkbox-item input { margin-right: 10px; cursor: pointer; }
+      .fcl-arrow { font-size: 10px; margin-left: 10px; opacity: 0.6; }
     `;
     document.head.appendChild(style);
   }
@@ -62,70 +73,30 @@ function initialize_fc_lite() {
   // Clear previous content
   root.innerHTML = "";
 
-  // Create Filter Container
-  const filterContainer = document.createElement("div");
-  filterContainer.id = "filter-container";
-  filterContainer.className = "fcl-filter-wrapper";
+  // --- 2. Create UI Elements (No Filter Container) ---
 
-  // Create Custom Dropdown UI
+  // Create the Button
   const dropdownBtn = document.createElement("div");
   dropdownBtn.className = "fcl-dropdown-btn";
   dropdownBtn.innerHTML = `<span>筛选作者 (全部)</span> <span class="fcl-arrow">▼</span>`;
 
+  // Create the Dropdown List (Hidden by default)
   const dropdownContent = document.createElement("div");
   dropdownContent.className = "fcl-dropdown-content";
   dropdownContent.id = "fcl-dropdown-list";
 
-  // Note: We append dropdownContent to body or root, but here we keep it in flow
-  // The CSS 'position: fixed' handles the visual breakout.
-  filterContainer.appendChild(dropdownBtn);
-  filterContainer.appendChild(dropdownContent);
-  root.appendChild(filterContainer);
-
-  // --- Toggle Dropdown Logic (Updated for Positioning) ---
-  dropdownBtn.onclick = (e) => {
-    e.stopPropagation();
-
-    // Check if it is currently visible before toggling
-    const isVisible = dropdownContent.classList.contains("show");
-
-    // Close all other instances if any exist (optional safety)
-    document
-      .querySelectorAll(".fcl-dropdown-content")
-      .forEach((el) => el.classList.remove("show"));
-
-    if (!isVisible) {
-      // Calculate position dynamically
-      const rect = dropdownBtn.getBoundingClientRect();
-
-      dropdownContent.style.top = rect.bottom + 5 + "px"; // 5px gap
-      dropdownContent.style.left = rect.left + "px";
-      // Optional: Match width to button if button is wide, or keep min-width
-      // dropdownContent.style.width = rect.width + "px";
-
-      dropdownContent.classList.add("show");
-    }
-  };
-
-  // Close dropdown when clicking outside OR scrolling
-  const closeDropdown = (e) => {
-    // If click is inside the dropdown or button, do nothing
-    if (
-      e.type === "click" &&
-      (filterContainer.contains(e.target) || dropdownContent.contains(e.target))
-    ) {
-      return;
-    }
-    dropdownContent.classList.remove("show");
-  };
-
-  window.addEventListener("click", closeDropdown);
-  window.addEventListener("scroll", closeDropdown, true); // Capture phase to catch all scrolls
-  window.addEventListener("resize", closeDropdown);
-
+  // Create Article Container
   const container = document.createElement("div");
   container.className = "articles-container";
   container.id = "articles-container";
+  // Add clear fix style to container in case button floats
+  container.style.clear = "both";
+
+  // --- 3. Append to Root ---
+  // We insert the button directly before the article container
+  root.appendChild(dropdownBtn);
+  // We append the menu to root (it will be positioned by JS)
+  root.appendChild(dropdownContent);
   root.appendChild(container);
 
   const loadMoreBtn = document.createElement("button");
@@ -137,10 +108,49 @@ function initialize_fc_lite() {
   statsContainer.id = "stats-container";
   root.appendChild(statsContainer);
 
+  // --- 4. Logic Variables ---
   let start = 0;
   let allArticles = [];
   let currentFilteredArticles = [];
   let selectedAuthors = new Set();
+
+  // --- 5. Event Handlers ---
+
+  // Toggle Dropdown
+  dropdownBtn.onclick = (e) => {
+    e.stopPropagation();
+    const isVisible = dropdownContent.classList.contains("show");
+
+    // Hide any other open menus
+    document
+      .querySelectorAll(".fcl-dropdown-content")
+      .forEach((el) => el.classList.remove("show"));
+
+    if (!isVisible) {
+      // Position the menu right below the button
+      const rect = dropdownBtn.getBoundingClientRect();
+      dropdownContent.style.top = rect.bottom + 5 + "px";
+      dropdownContent.style.left = rect.left + "px";
+      dropdownContent.classList.add("show");
+    }
+  };
+
+  // Close when clicking outside
+  const closeDropdown = (e) => {
+    if (
+      e.type === "click" &&
+      (dropdownBtn.contains(e.target) || dropdownContent.contains(e.target))
+    ) {
+      return;
+    }
+    dropdownContent.classList.remove("show");
+  };
+
+  window.addEventListener("click", closeDropdown);
+  window.addEventListener("scroll", closeDropdown, true);
+  window.addEventListener("resize", closeDropdown);
+
+  // --- 6. Data & Rendering Functions ---
 
   function loadInitialData() {
     const cacheKey = "friend-circle-lite-cache";
@@ -166,6 +176,87 @@ function initialize_fc_lite() {
       .catch((err) => {
         console.error("Failed to load data:", err);
       });
+  }
+
+  function applyFilters() {
+    let filtered = allArticles;
+
+    // Multiselect Filtering Logic
+    if (selectedAuthors.size > 0) {
+      filtered = filtered.filter((a) => selectedAuthors.has(a.author));
+      dropdownBtn.querySelector(
+        "span"
+      ).innerText = `已选 ${selectedAuthors.size} 位作者`;
+    } else {
+      dropdownBtn.querySelector("span").innerText = `筛选作者 (全部)`;
+    }
+
+    start = 0;
+    currentFilteredArticles = filtered;
+    const articlesToShow = filtered.slice(0, UserConfig.page_turning_number);
+    renderArticles(articlesToShow);
+    start = articlesToShow.length;
+    loadMoreBtn.style.display =
+      filtered.length > UserConfig.page_turning_number ? "block" : "none";
+  }
+
+  function processArticles(data) {
+    allArticles = data.article_data;
+
+    const uniqueAuthors = [...new Set(allArticles.map((data) => data.author))];
+    dropdownContent.innerHTML = "";
+
+    uniqueAuthors.forEach((author) => {
+      const label = document.createElement("label");
+      label.className = "fcl-checkbox-item";
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = author;
+
+      // Prevent menu closing when clicking inside
+      checkbox.addEventListener("click", (e) => e.stopPropagation());
+
+      checkbox.addEventListener("change", (e) => {
+        if (e.target.checked) {
+          selectedAuthors.add(author);
+        } else {
+          selectedAuthors.delete(author);
+        }
+        applyFilters();
+      });
+
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(" " + author));
+
+      label.addEventListener("click", (e) => e.stopPropagation());
+
+      dropdownContent.appendChild(label);
+    });
+
+    currentFilteredArticles = [...allArticles];
+
+    const stats = data.statistical_data;
+    statsContainer.innerHTML = `
+            <div>Powered by: <a href="https://github.com/willow-god/Friend-Circle-Lite" target="_blank">FriendCircleLite</a><br></div>
+            <div>Designed By: <a href="https://www.liushen.fun/" target="_blank">LiuShen</a><br></div>
+            <div>订阅:${stats.friends_num}   活跃:${stats.active_num}   总文章数:${stats.article_num}<br></div>
+            <div>更新时间:${stats.last_updated_time}</div>
+        `;
+
+    container.innerHTML = "";
+    const initialArticles = currentFilteredArticles.slice(
+      0,
+      UserConfig.page_turning_number
+    );
+    initialArticles.forEach((article) =>
+      container.appendChild(createArticleCard(article))
+    );
+    start = initialArticles.length;
+    loadMoreBtn.style.display =
+      currentFilteredArticles.length > UserConfig.page_turning_number
+        ? "block"
+        : "none";
   }
 
   function createArticleCard(article) {
@@ -232,87 +323,6 @@ function initialize_fc_lite() {
       const card = createArticleCard(article);
       container.appendChild(card);
     });
-  }
-
-  function applyFilters() {
-    let filtered = allArticles;
-
-    if (selectedAuthors.size > 0) {
-      filtered = filtered.filter((a) => selectedAuthors.has(a.author));
-      dropdownBtn.querySelector(
-        "span"
-      ).innerText = `已选 ${selectedAuthors.size} 位作者`;
-    } else {
-      dropdownBtn.querySelector("span").innerText = `筛选作者 (全部)`;
-    }
-
-    start = 0;
-    currentFilteredArticles = filtered;
-    const articlesToShow = filtered.slice(0, UserConfig.page_turning_number);
-    renderArticles(articlesToShow);
-    start = articlesToShow.length;
-    loadMoreBtn.style.display =
-      filtered.length > UserConfig.page_turning_number ? "block" : "none";
-  }
-
-  function processArticles(data) {
-    allArticles = data.article_data;
-
-    const uniqueAuthors = [...new Set(allArticles.map((data) => data.author))];
-    dropdownContent.innerHTML = "";
-
-    uniqueAuthors.forEach((author) => {
-      const label = document.createElement("label");
-      label.className = "fcl-checkbox-item";
-
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.value = author;
-
-      // Stop propagation so clicking a checkbox doesn't trigger the window-click-close event
-      checkbox.addEventListener("click", (e) => e.stopPropagation());
-
-      checkbox.addEventListener("change", (e) => {
-        if (e.target.checked) {
-          selectedAuthors.add(author);
-        } else {
-          selectedAuthors.delete(author);
-        }
-        applyFilters();
-      });
-
-      label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(" " + author));
-
-      // Stop propagation on label click too
-      label.addEventListener("click", (e) => e.stopPropagation());
-
-      dropdownContent.appendChild(label);
-    });
-
-    currentFilteredArticles = [...allArticles];
-
-    const stats = data.statistical_data;
-    statsContainer.innerHTML = `
-            <div>Powered by: <a href="https://github.com/willow-god/Friend-Circle-Lite" target="_blank">FriendCircleLite</a><br></div>
-            <div>Designed By: <a href="https://www.liushen.fun/" target="_blank">LiuShen</a><br></div>
-            <div>订阅:${stats.friends_num}   活跃:${stats.active_num}   总文章数:${stats.article_num}<br></div>
-            <div>更新时间:${stats.last_updated_time}</div>
-        `;
-
-    container.innerHTML = "";
-    const initialArticles = currentFilteredArticles.slice(
-      0,
-      UserConfig.page_turning_number
-    );
-    initialArticles.forEach((article) =>
-      container.appendChild(createArticleCard(article))
-    );
-    start = initialArticles.length;
-    loadMoreBtn.style.display =
-      currentFilteredArticles.length > UserConfig.page_turning_number
-        ? "block"
-        : "none";
   }
 
   function showAuthorArticles(author, avatar, link) {
