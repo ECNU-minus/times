@@ -1,5 +1,5 @@
 function initialize_fc_lite() {
-  // User Configuration
+  // 用户配置
   UserConfig = {
     private_api_url: UserConfig?.private_api_url || "",
     page_turning_number: UserConfig?.page_turning_number || 24,
@@ -11,13 +11,17 @@ function initialize_fc_lite() {
   const root = document.getElementById("friend-circle-lite-root");
   if (!root) return;
 
-  // --- 1. Inject Styles ---
+  // Key Change 1: Set root position to relative for absolute positioning of the dropdown
+  if (window.getComputedStyle(root).position === "static") {
+    root.style.position = "relative";
+  }
+
+  // --- 1. Inject Styles (Updated for Absolute Positioning) ---
   const styleId = "fc-lite-multiselect-style";
   if (!document.getElementById(styleId)) {
     const style = document.createElement("style");
     style.id = styleId;
     style.textContent = `
-      /* Button styles - Left aligned, no wrapper */
       .fcl-dropdown-btn { 
         display: inline-flex; 
         justify-content: space-between; 
@@ -29,7 +33,7 @@ function initialize_fc_lite() {
         cursor: pointer; 
         min-width: 150px; 
         text-align: left; 
-        margin-bottom: 20px; /* Space before articles */
+        margin-bottom: 20px; 
         user-select: none;
         font-family: sans-serif;
         font-size: 14px;
@@ -37,10 +41,10 @@ function initialize_fc_lite() {
       }
       .fcl-dropdown-btn:hover { border-color: #888; }
       
-      /* Dropdown Menu - Floating on top */
       .fcl-dropdown-content {
         display: none; 
-        position: fixed; /* Fixed to viewport to ensure it floats on top */
+        /* Key Change 2: Absolute positioning relative to the root element */
+        position: absolute; 
         background-color: #fff; 
         min-width: 200px; 
         box-shadow: 0px 4px 12px rgba(0,0,0,0.15); 
@@ -53,7 +57,6 @@ function initialize_fc_lite() {
       }
       .fcl-dropdown-content.show { display: block; }
       
-      /* Checkbox Items */
       .fcl-checkbox-item { 
         display: block; 
         padding: 8px 12px; 
@@ -73,8 +76,6 @@ function initialize_fc_lite() {
   // Clear previous content
   root.innerHTML = "";
 
-  // --- 2. Create UI Elements (No Filter Container) ---
-
   // Create the Button
   const dropdownBtn = document.createElement("div");
   dropdownBtn.className = "fcl-dropdown-btn";
@@ -89,13 +90,10 @@ function initialize_fc_lite() {
   const container = document.createElement("div");
   container.className = "articles-container";
   container.id = "articles-container";
-  // Add clear fix style to container in case button floats
   container.style.clear = "both";
 
-  // --- 3. Append to Root ---
-  // We insert the button directly before the article container
+  // Append to Root
   root.appendChild(dropdownBtn);
-  // We append the menu to root (it will be positioned by JS)
   root.appendChild(dropdownContent);
   root.appendChild(container);
 
@@ -108,35 +106,37 @@ function initialize_fc_lite() {
   statsContainer.id = "stats-container";
   root.appendChild(statsContainer);
 
-  // --- 4. Logic Variables ---
   let start = 0;
   let allArticles = [];
   let currentFilteredArticles = [];
   let selectedAuthors = new Set();
-
-  // --- 5. Event Handlers ---
 
   // Toggle Dropdown
   dropdownBtn.onclick = (e) => {
     e.stopPropagation();
     const isVisible = dropdownContent.classList.contains("show");
 
-    // Hide any other open menus
     document
       .querySelectorAll(".fcl-dropdown-content")
       .forEach((el) => el.classList.remove("show"));
 
     if (!isVisible) {
-      // Position the menu right below the button
-      const rect = dropdownBtn.getBoundingClientRect();
-      dropdownContent.style.top = rect.bottom + 5 + "px";
-      dropdownContent.style.left = rect.left + "px";
+      // Key Change 3: Simplified positioning for absolute
+      // The menu is positioned relative to the root element.
+      const buttonHeight = dropdownBtn.offsetHeight;
+      const buttonMarginBottom = 20; // from CSS
+
+      // Position the menu right below the button (relative to root)
+      dropdownContent.style.top = buttonHeight + buttonMarginBottom + "px";
+      dropdownContent.style.left = "0px"; // Align with the left edge of the root container
+
       dropdownContent.classList.add("show");
     }
   };
 
   // Close when clicking outside
   const closeDropdown = (e) => {
+    // If click is inside the dropdown or button, do nothing
     if (
       e.type === "click" &&
       (dropdownBtn.contains(e.target) || dropdownContent.contains(e.target))
@@ -147,11 +147,11 @@ function initialize_fc_lite() {
   };
 
   window.addEventListener("click", closeDropdown);
-  window.addEventListener("scroll", closeDropdown, true);
-  window.addEventListener("resize", closeDropdown);
+  // Key Change 4: Remove the scroll listener that was causing the issue
+  // window.addEventListener('scroll', closeDropdown, true);
+  window.addEventListener("resize", closeDropdown); // Keep resize listener for cleanup
 
-  // --- 6. Data & Rendering Functions ---
-
+  // --- Data & Rendering Functions (omitted for brevity, they are unchanged) ---
   function loadInitialData() {
     const cacheKey = "friend-circle-lite-cache";
     const cacheTimeKey = "friend-circle-lite-cache-time";
@@ -181,7 +181,6 @@ function initialize_fc_lite() {
   function applyFilters() {
     let filtered = allArticles;
 
-    // Multiselect Filtering Logic
     if (selectedAuthors.size > 0) {
       filtered = filtered.filter((a) => selectedAuthors.has(a.author));
       dropdownBtn.querySelector(
@@ -214,7 +213,6 @@ function initialize_fc_lite() {
       checkbox.type = "checkbox";
       checkbox.value = author;
 
-      // Prevent menu closing when clicking inside
       checkbox.addEventListener("click", (e) => e.stopPropagation());
 
       checkbox.addEventListener("change", (e) => {
