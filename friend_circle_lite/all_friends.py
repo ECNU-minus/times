@@ -238,8 +238,8 @@ def deal_with_large_data(result):
     result = sort_articles_by_time(result)
     article_data = result.get("article_data", [])
 
-    # 检查文章数量是否大于 150
-    max_articles = 150
+    # 检查文章数量是否大于 256
+    max_articles = 256
     if len(article_data) > max_articles:
         logging.info("数据量较大，开始进行处理...")
         # 获取前 max_articles 篇文章的作者集合

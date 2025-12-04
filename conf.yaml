@@ -9,7 +9,7 @@
 spider_settings:
   enable: true
   json_url: "https://raw.githubusercontent.com/ECNU-minus/Friend-Circle-Lite/main/sites.json"
-  article_count: 16
+  article_count: 8
   merge_result:
     enable: false
     merge_json_url: "https://fc.liushen.fun"
