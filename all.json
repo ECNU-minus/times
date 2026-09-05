@@ -1,0 +1,1551 @@
+{
+  "statistical_data": {
+    "friends_num": 28,
+    "active_num": 28,
+    "error_num": 0,
+    "article_num": 220,
+    "last_updated_time": "2026-09-06 05:56:40"
+  },
+  "article_data": [
+    {
+      "title": "2026年信息与电子工程学院（集成电路科学与工程学院）推免成绩排名及拟推荐名单",
+      "created": "2026-09-05 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/d4/14/c4170a775188/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "软件工程学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-05 00:00",
+      "link": "https://sei.ecnu.edu.cn/d4/31/c33171a775217/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "2027届化学与分子工程学院推免成绩及拟推荐名单综合排名公示",
+      "created": "2026-09-05 00:00",
+      "link": "https://chem.ecnu.edu.cn/d4/17/c26579a775191/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "体育与健康学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-05 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/d4/3c/c37979a775228/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "计算机科学与技术学院关于推荐2027届优秀本科毕业生免试攻读研究生拟推荐名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://cs.ecnu.edu.cn/d3/e3/c19867a775139/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "公示 | 华东师范大学计算机科学拔尖基地2027 届优秀本科毕业生免试攻读研究生拟推荐名单",
+      "created": "2026-09-04 00:00",
+      "link": "https://dase.ecnu.edu.cn/d3/ae/c41465a775086/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "公示 | 华东师范大学数据科学与工程学院2027届优秀本科毕业生免试攻读研究生拟推荐名单",
+      "created": "2026-09-04 00:00",
+      "link": "https://dase.ecnu.edu.cn/d3/ad/c41465a775085/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "卓越学院2026级招生启动：10个拔尖计划、4个校级实验班，期待你的加入！",
+      "created": "2026-09-04 00:00",
+      "link": "https://zyxy.ecnu.edu.cn/d2/bc/c36095a774844/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "历史学系推荐免试直升2027年研究生选拔名单",
+      "created": "2026-09-04 00:00",
+      "link": "https://history.ecnu.edu.cn/d3/bf/c33433a775103/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "哲学系拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/d3/a1/c36259a775073/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "公示 | 2027届美术学院本科直升研究生名单（非师范）",
+      "created": "2026-09-04 00:00",
+      "link": "https://art.ecnu.edu.cn/d3/a6/c45236a775078/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "国际汉语文化学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://chinese.ecnu.edu.cn/d3/a8/c12744a775080/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "闪“药”新星，卓越启程｜药学院2026级新生报到指南",
+      "created": "2026-09-04 00:00",
+      "link": "https://mp.weixin.qq.com/s/MPf6ijTbNhE6LyX45yG5OQ",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "物理学院2027届优秀应届本科毕业生免试攻读研究生公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://phy.ecnu.edu.cn/d3/c1/c5679a775105/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "心理与认知科学学院2027届优秀本科毕业生免试攻读研究生推荐名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://psy.ecnu.edu.cn/d3/da/c17481a775130/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "生态与环境科学学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://sees.ecnu.edu.cn/d3/b3/c41127a775091/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "统计学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-04 00:00",
+      "link": "https://stat.ecnu.edu.cn/d3/d9/c9708a775129/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "传播学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-02 00:00",
+      "link": "https://comm.ecnu.edu.cn/d2/75/c41511a774773/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "关于2026-2027学年第一学期辅修专业2024级、2025级学生注册收费工作的通知",
+      "created": "2026-09-01 00:00",
+      "link": "https://bksy.ecnu.edu.cn/d1/59/c40503a774489/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "公共管理学院拟推荐2027届优秀应届本科毕业生免试攻读研究生名单公示",
+      "created": "2026-09-01 00:00",
+      "link": "https://spm.ecnu.edu.cn/d1/4e/c42688a774478/page.htm",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "关于公布2026级辅修专业班级群的通知",
+      "created": "2026-08-31 00:00",
+      "link": "https://bksy.ecnu.edu.cn/d0/fb/c40503a774395/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "2026-2027学年第一学期辅修专业课程表",
+      "created": "2026-08-31 00:00",
+      "link": "https://bksy.ecnu.edu.cn/d0/f8/c40503a774392/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "《纪检监察史研究》征稿启事",
+      "created": "2026-08-31 00:00",
+      "link": "https://history.ecnu.edu.cn/cf/93/c33433a774035/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "2026зІЛжО•жФґеЫљеЖЕйЂШж†°дЇ§жµБзФЯж≥®еЖМжК•еИ∞йАЪзЯ•",
+      "created": "2026-08-29 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/ce/d4/c11184a773844/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "华东师范大学卓越工程师学院2027年接收优秀应届本科毕业生免试攻读研究生（含直接攻博）预报名通知",
+      "created": "2026-08-26 00:00",
+      "link": "https://yjsy.ecnu.edu.cn/c7/d5/c42082a772053/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "心理与认知科学学院推荐2027届优秀本科毕业生免试攻读研究生综合排名方案",
+      "created": "2026-08-26 00:00",
+      "link": "https://psy.ecnu.edu.cn/ca/0f/c17481a772623/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "统计学院2027届本科毕业生免试攻读研究生操作细则",
+      "created": "2026-08-26 00:00",
+      "link": "https://stat.ecnu.edu.cn/c9/fb/c9708a772603/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "数据科学与工程学院推荐优秀应届本科毕业生免试攻读研究生工作评审细则（2026）",
+      "created": "2026-08-25 00:00",
+      "link": "https://dase.ecnu.edu.cn/c9/e0/c41465a772576/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "计算机科学拔尖基地推荐2027届优秀应届本科毕业生免试攻读研究生选拔细则",
+      "created": "2026-08-25 00:00",
+      "link": "https://dase.ecnu.edu.cn/c9/df/c41465a772575/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "软件工程学院关于推荐2027届优秀本科毕业生免试攻读研究生工作的评审细则",
+      "created": "2026-08-25 00:00",
+      "link": "https://sei.ecnu.edu.cn/c9/bc/c33171a772540/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "华东师范大学关于做好推荐2027届优秀本科毕业生免试攻读研究生工作的通知",
+      "created": "2026-08-25 00:00",
+      "link": "https://bksy.ecnu.edu.cn/c9/aa/c45450a772522/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "历史学系推荐应届本科毕业生免试直升研究生选拔细则（2026年7月修订）",
+      "created": "2026-08-24 00:00",
+      "link": "https://history.ecnu.edu.cn/c9/a7/c33433a772519/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "华东师范大学传播学院推荐优秀应届本科毕业生免试攻读研究生工作管理办法（2026年修订）",
+      "created": "2026-08-24 00:00",
+      "link": "https://comm.ecnu.edu.cn/c9/94/c41511a772500/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "公共管理学院2027届本科毕业生免试攻读研究生操作细则",
+      "created": "2026-08-24 00:00",
+      "link": "https://spm.ecnu.edu.cn/c9/97/c42688a772503/page.htm",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "华东师范大学马克思主义学院 2027 年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-23 00:00",
+      "link": "https://mks.ecnu.edu.cn/c9/74/c2707a772468/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "гАРжЦ∞йЧїгАСжИСж†°зђђеЕ≠жЬЯвАЬеЕ®зРГдЇЇжЦЗз§ЊзІСиПБиЛ±вАЭиЃње≠¶й°єзЫЃеЬ®зЊОеЫљеУ•дЉ¶жѓФдЇЪе§Іе≠¶жИРеКЯдЄЊеКЮ",
+      "created": "2026-08-23 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/c9/76/c11184a772470/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "华东师范大学美术学院2027年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-22 00:00",
+      "link": "https://art.ecnu.edu.cn/c9/5b/c45236a772443/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院2027年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-22 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/c9/60/c37979a772448/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "关于陈时友参与申报陕西省科学技术奖的公示",
+      "created": "2026-08-21 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c9/55/c4170a772437/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "华东师范大学历史学系2027年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-21 00:00",
+      "link": "https://history.ecnu.edu.cn/c9/59/c33433a772441/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "华东师范大学化学与分子工程学院2027年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-21 00:00",
+      "link": "https://chem.ecnu.edu.cn/c9/23/c26579a772387/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "华东师范大学物理学院综合秘书招聘启事",
+      "created": "2026-08-21 00:00",
+      "link": "https://phy.ecnu.edu.cn/67/1c/c5679a747292/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "华东师范大学物理学院公开招聘工程技术人员启事",
+      "created": "2026-08-20 00:00",
+      "link": "https://jobs.ecnu.edu.cn/product/recruit/website/RecruitNoticeViewNew.jsp?FM_SYS_ID=hdsfdx_hr&entityId=7498EE628B094F069D05BB459731E84D",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "华东师范大学物理学院2027年公费师范生本研衔接综合考核实施细则",
+      "created": "2026-08-20 00:00",
+      "link": "https://phy.ecnu.edu.cn/c8/fd/c5679a772349/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "马克思主义学院推荐优秀应届本科毕业生免试直升2027年研究生综合排名方案和工作细则",
+      "created": "2026-08-19 00:00",
+      "link": "https://mks.ecnu.edu.cn/c8/d1/c2707a772305/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "用声音传递爱 | “希望网校”2026秋-2027春线上支教志愿者招募启动",
+      "created": "2026-08-18 00:00",
+      "link": "https://comm.ecnu.edu.cn/c9/37/c41511a772407/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "薪火相“传”，“播”种微光｜传播学院2026-2027学年新生学导招募啦！",
+      "created": "2026-08-16 00:00",
+      "link": "https://comm.ecnu.edu.cn/c9/36/c41511a772406/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院推荐2027届优秀本科毕业生免试攻读研究生工作实施细则",
+      "created": "2026-08-16 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/c8/87/c37979a772231/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "华东师范大学化学院推荐免试攻读研究生工作实施细则2027年（公费师范)",
+      "created": "2026-08-15 00:00",
+      "link": "https://chem.ecnu.edu.cn/c8/80/c26579a772224/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "华东师范大学化学院推荐免试攻读研究生工作实施细则2027年（拔尖、非师范、自费师范）",
+      "created": "2026-08-15 00:00",
+      "link": "https://chem.ecnu.edu.cn/c8/7f/c26579a772223/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "生态与环境科学学院推荐2027届本科毕业生免试直升研究生工作评审细则",
+      "created": "2026-08-15 00:00",
+      "link": "https://sees.ecnu.edu.cn/c8/83/c41127a772227/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "гАРжЦ∞йЧїгАСй¶Щж±ЯжљЃжґМпЉМжЩЇжЕІдЇ§иЮН вАФвАФжИСж†°дЄОй¶ЩжЄѓе§Іе≠¶зђђдЄГжЬЯвАЬеЕ®зРГзІСжКАиПБиЛ±вАЭиЃње≠¶й°єзЫЃеЬЖжї°жФґеЃШ",
+      "created": "2026-08-14 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/c8/5f/c11184a772191/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "华东师范大学卓越工程师学院2027年接收优秀应届本科毕业生免试攻读研究生（含直接攻博）预报名通知",
+      "created": "2026-08-11 00:00",
+      "link": "https://yjsy.ecnu.edu.cn/c7/d5/c42082a772053/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "以史料实证为枢，探索中学历史教-学-评一体化实践新路径——第二届全国中学历史学科单元作业暨习题设计大赛 ...",
+      "created": "2026-08-10 00:00",
+      "link": "https://history.ecnu.edu.cn/c7/40/c33433a771904/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "国际汉语文化学院推荐2027届优秀本科毕业生免试攻读研究生工作细则",
+      "created": "2026-08-06 00:00",
+      "link": "https://chinese.ecnu.edu.cn/c7/5f/c12744a771935/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "华东师范大学美术学院推荐优秀应届本科毕业生免试攻读2027年研究生工作评审细则",
+      "created": "2026-08-05 00:00",
+      "link": "https://art.ecnu.edu.cn/c7/2f/c45236a771887/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "重磅推介 | 华东师范大学《人文与智慧研修班》招生简章",
+      "created": "2026-08-03 00:00",
+      "link": "https://history.ecnu.edu.cn/c7/3e/c33433a771902/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "第十二届“全国教育实证研究论坛”启动及征稿通知",
+      "created": "2026-07-30 00:00",
+      "link": "https://mp.weixin.qq.com/s/rfuVIUV8SHIgTh0rAAAuHg",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "华东师范大学药学院2027年接收优秀应届本科毕业生 推荐免试攻读研究生（含直接攻博）预报名通知",
+      "created": "2026-07-26 00:00",
+      "link": "https://pharm.ecnu.edu.cn/c4/41/c43776a771137/page.htm",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "гАРеЕђз§ЇгАС2027еЖђеК†жЛње§ІйШње∞ФдЉѓе°Фе§Іе≠¶UAREзІСз†ФеЃЮдє†й°єзЫЃжЛЯжО®иНРдЇЇйАЙеЕђз§Ї",
+      "created": "2026-07-26 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/c4/3c/c11184a771132/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "关于华东师范大学体育与健康学院2027年接收优秀应届本科毕业生免试攻读研究生预报名的通知",
+      "created": "2026-07-25 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/c4/10/c37979a771088/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "关于华东师范大学计算机科学与技术学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博...",
+      "created": "2026-07-24 00:00",
+      "link": "https://cs.ecnu.edu.cn/c3/c2/c19867a771010/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "信息与电子工程学院 （集成电路科学与工程学院） 2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c4/1e/c4170a771102/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "关于李柏申报2026年度中国自动化学会青年科技奖的公示",
+      "created": "2026-07-24 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c4/1d/c4170a771101/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "招生 | 数据科学与工程学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://dase.ecnu.edu.cn/c4/1f/c41465a771103/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "华东师范大学软件工程学院（滴水湖国际软件学院）2027年接收优秀应届本科毕业生免试攻读研究生（...",
+      "created": "2026-07-24 00:00",
+      "link": "https://sei.ecnu.edu.cn/c4/0d/c33171a771085/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://geoai.ecnu.edu.cn/c3/bc/c48289a771004/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "华东师范大学历史学系2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://history.ecnu.edu.cn/c3/c1/c33433a771009/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "哲学系推荐应届本科毕业生免试直升2027年研究生工作细则",
+      "created": "2026-07-24 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/c3/55/c36259a770901/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "关于华东师范大学哲学系2027年 接收优秀应届本科毕业生免试攻读硕士研究生（含本科直博） 预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/c3/ca/c36259a771018/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "关于华东师范大学化学与分子工程学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://chem.ecnu.edu.cn/c4/20/c26579a771104/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "关于华东师范大学美术学院2027年接收优秀应届本科毕业生推荐免试攻读研究生预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://art.ecnu.edu.cn/c4/2b/c45236a771115/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "2026年国际汉语文化学院汉语国际教育专业“博望班”学生选拔结果公示",
+      "created": "2026-07-24 00:00",
+      "link": "https://chinese.ecnu.edu.cn/c3/ed/c12744a771053/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "关于华东师范大学国际汉语文化学院 2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博） 预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://chinese.ecnu.edu.cn/c3/c9/c12744a771017/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "推免生预报名公告 | 华东师范大学传播学院2027年招收推荐免试攻读研究生",
+      "created": "2026-07-24 00:00",
+      "link": "https://comm.ecnu.edu.cn/c3/c7/c41511a771015/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "华东师范大学马克思主义学院2027年接收优秀应届本科毕业生免试攻读研究生（含直接攻博）预报名通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://mks.ecnu.edu.cn/c4/21/c2707a771105/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "关于华东师范大学物理学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://phy.ecnu.edu.cn/c3/bf/c5679a771007/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "心理与认知科学学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://psy.ecnu.edu.cn/c3/cd/c17481a771021/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "关于华东师范大学生态与环境科学学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名的通知",
+      "created": "2026-07-24 00:00",
+      "link": "https://sees.ecnu.edu.cn/c3/b9/c41127a771001/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "信息与电子工程学院（集成电路科学与工程学院）微电子科学与工程专业推免工作评审细则（2026年）",
+      "created": "2026-07-22 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c3/2d/c4170a770861/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "信息与电子工程学院（集成电路科学与工程学院）通信工程专业（含双学位）推免工作评审细则（2026年）",
+      "created": "2026-07-22 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c3/2c/c4170a770860/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "信息与电子工程学院（集成电路科学与工程学院）电子信息科学与技术专业推免工作评审细则（2026年）",
+      "created": "2026-07-22 00:00",
+      "link": "https://ieeic.ecnu.edu.cn/c3/2b/c4170a770859/page.htm",
+      "author": "通信与电子工程学院",
+      "avatar": "./assets/cee.webp"
+    },
+    {
+      "title": "第八届“诗教中国”讲解大赛（留学生组）华东师大赛区初赛圆满落幕",
+      "created": "2026-07-22 00:00",
+      "link": "https://chinese.ecnu.edu.cn/c3/34/c12744a770868/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "征稿｜第十一届口语传播学术论坛征稿通知",
+      "created": "2026-07-22 00:00",
+      "link": "https://comm.ecnu.edu.cn/c3/c6/c41511a771014/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "华东师范大学统计学院2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名通知",
+      "created": "2026-07-22 00:00",
+      "link": "https://stat.ecnu.edu.cn/c3/29/c9708a770857/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "第十九届上海大学生电视节“AI视频大赛”作品征集通知",
+      "created": "2026-07-21 00:00",
+      "link": "https://comm.ecnu.edu.cn/c3/c5/c41511a771013/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "统计学院2027年硕士研究生招生考试相关变化预公告",
+      "created": "2026-07-21 00:00",
+      "link": "https://stat.ecnu.edu.cn/c2/dd/c9708a770781/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "华东师范大学公共管理学院2027年接收优秀应届本科毕业生推荐免试攻读研究生预报名通知",
+      "created": "2026-07-21 00:00",
+      "link": "https://spm.ecnu.edu.cn/c2/e7/c42688a770791/page.htm",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "报名开启 | 华东师范大学“公共表达与个人品牌运营”微专业招生启动",
+      "created": "2026-07-20 00:00",
+      "link": "https://comm.ecnu.edu.cn/c2/81/c41511a770689/page.htm",
+      "author": "传播学院",
+      "avatar": "./assets/comm.webp"
+    },
+    {
+      "title": "关于开展2026年暑期课程学生网上评教的通知",
+      "created": "2026-07-16 00:00",
+      "link": "https://bksy.ecnu.edu.cn/c1/89/c40503a770441/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "物理学院推荐2027届优秀应届本科毕业生免试攻读研究生选拔细则",
+      "created": "2026-07-16 00:00",
+      "link": "https://phy.ecnu.edu.cn/c1/b8/c5679a770488/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "2026-2027学年秋季学期第三轮选课通知",
+      "created": "2026-07-15 00:00",
+      "link": "https://bksy.ecnu.edu.cn/c0/fe/c40503a770302/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "华东师范大学教育学部2027年硕士研究生招生考试相关变化预公告",
+      "created": "2026-07-15 00:00",
+      "link": "https://ed.ecnu.edu.cn/c0/e6/c45918a770278/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "2026-2027学年秋季学期 优秀本科生提前修读研究生课程选课通知",
+      "created": "2026-07-13 00:00",
+      "link": "https://bksy.ecnu.edu.cn/c0/56/c40503a770134/page.htm",
+      "author": "本科生院",
+      "avatar": "./assets/B.webp"
+    },
+    {
+      "title": "еЕ≥дЇО2027еєіеК†жЛње§ІйШње∞ФдЉѓе°Фе§Іе≠¶UAREзІСз†ФеЃЮдє†й°єзЫЃзЪДжК•еРНйАЪзЯ•",
+      "created": "2026-07-10 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/c0/05/c11184a770053/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "еЕ≥дЇОжК•еРН2026еєізІЛе≠£йЯ©еЫљж±ЙйШ≥е§Іе≠¶зЇњдЄКдЇ§жµБй°єзЫЃзЪДйАЪзЯ•",
+      "created": "2026-07-10 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/b5/05/c11184a767237/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2026-2027学年助学保障对象认定公示（老生）",
+      "created": "2026-07-09 00:00",
+      "link": "https://geoai.ecnu.edu.cn/bf/74/c48289a769908/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "哲学系2026年拔尖计划学生选拔结果公示",
+      "created": "2026-07-09 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/bf/33/c36259a769843/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "国际汉语文化学院推荐2026年宝钢优秀教师奖候选人公示",
+      "created": "2026-07-09 00:00",
+      "link": "https://chinese.ecnu.edu.cn/bf/37/c12744a769847/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "征稿通知 | 第四届行为公共管理前沿研究工作坊暨《行为公共管理与政策》第五届学术研讨会征稿通知",
+      "created": "2026-07-09 00:00",
+      "link": "https://mp.weixin.qq.com/s/sIZu7blsWu3k4vI_GJQ2CQ",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "华东师范大学计算机科学与技术学院视觉智能与世界模型实验室行政助理招聘启事",
+      "created": "2026-07-08 00:00",
+      "link": "https://hr.ecnu.edu.cn/be/0b/c34773a769547/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "关于举办第十二届华东师范大学数学竞赛的通知",
+      "created": "2026-07-08 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/be/67/c18354a769639/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "еЕ≥дЇОеЫљеЃґзХЩе≠¶еЯЇйЗСеІФ2027еєіеК†жЛње§ІMitacsжЬђзІСзФЯеЃЮдє†еРИдљЬе•Це≠¶йЗСй°єзЫЃзЪДзФ≥жК•йАЪзЯ•",
+      "created": "2026-07-08 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/bf/01/c11184a769793/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "华东师范大学历史学系 第十八届全国历史学本科生论坛征稿启事",
+      "created": "2026-07-06 00:00",
+      "link": "https://history.ecnu.edu.cn/c2/41/c33433a770625/page.htm",
+      "author": "历史学系",
+      "avatar": "./assets/history.webp"
+    },
+    {
+      "title": "гАРеЕђз§ЇгАС26еєідЄЛеНКеєіиµіеҐГе§ЦдЇ§жµБзФЯжЛЯиµДеК©еРНеНХеЕђз§Ї",
+      "created": "2026-07-06 00:00",
+      "link": "http://www.jiaoliu.ecnu.edu.cn/bc/f6/c11184a769270/page.htm",
+      "author": "本科生跨国（境）、跨校交流网",
+      "avatar": "./assets/jiaoliu.webp"
+    },
+    {
+      "title": "2026年生态与环境科学学院本科生学术科研奖励公示",
+      "created": "2026-07-03 00:00",
+      "link": "https://sees.ecnu.edu.cn/bb/99/c41127a768921/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "华东师范大学哲学系“人工智能：新技术与人文”基础学科国际暑期学校报名通知",
+      "created": "2026-07-01 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/b9/0b/c36259a768267/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2023级强基计划本科生转段直升研究生接收细则",
+      "created": "2026-06-30 00:00",
+      "link": "https://geoai.ecnu.edu.cn/b7/9a/c48289a767898/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "哲学系2027年学术学位硕士研究生招生考试相关变化预公告",
+      "created": "2026-06-30 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/b7/d0/c36259a767952/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "“国际汉学与文学研究的对话”论坛预告 （2026年度上海市社联合作项目）",
+      "created": "2026-06-30 00:00",
+      "link": "https://mp.weixin.qq.com/s/ckgN1KyybQAAXDOSsXm4Sg",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "国际汉语文化学院汉语国际教育系、汉语言系系主任人选公示",
+      "created": "2026-06-30 00:00",
+      "link": "https://chinese.ecnu.edu.cn/b7/aa/c12744a767914/page.htm",
+      "author": "国际汉语文化学院",
+      "avatar": "./assets/chinese.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2026年全国高校优秀大学生夏令营活动通知",
+      "created": "2026-06-29 00:00",
+      "link": "https://geoai.ecnu.edu.cn/b7/2b/c48289a767787/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "关于华东师范大学参与其他单位联合申报2026年江苏省科学技术奖公示的通知",
+      "created": "2026-06-29 00:00",
+      "link": "https://phy.ecnu.edu.cn/b7/1f/c5679a767775/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "2026年“科学回家”卓越实践项目立项公示",
+      "created": "2026-06-26 00:00",
+      "link": "http://www.ghcollege.ecnu.edu.cn/b6/a5/c8609a767653/page.htm",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "华东师范大学统计学院 2026年“优秀大学生夏令营”活动公告",
+      "created": "2026-06-26 00:00",
+      "link": "https://stat.ecnu.edu.cn/b6/ba/c9708a767674/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院硕士研究生招生调整预公告",
+      "created": "2026-06-25 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/b6/51/c37979a767569/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "计算机科学与技术学院2026年优秀大学生夏令营通知",
+      "created": "2026-06-24 00:00",
+      "link": "https://cs.ecnu.edu.cn/b6/40/c19867a767552/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "数据科学与工程学院第十四届\"云计算与大数据\"优秀大学生夏令营活动通知",
+      "created": "2026-06-24 00:00",
+      "link": "https://dase.ecnu.edu.cn/b6/34/c41465a767540/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "新加坡国立大学311培养项目 报名通知",
+      "created": "2026-06-24 00:00",
+      "link": "https://sees.ecnu.edu.cn/b6/44/c41127a767556/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "水污染防治与利用山西省重点实验室2026年度开放课题申请指南",
+      "created": "2026-06-24 00:00",
+      "link": "https://sees.ecnu.edu.cn/b6/08/c41127a767496/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "生态与环境科学学院举办2026年“优秀大学生夏令营”活动公告",
+      "created": "2026-06-24 00:00",
+      "link": "https://sees.ecnu.edu.cn/b5/e5/c41127a767461/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "华东师范大学药学院2026年全国优秀大学生夏令营活动通知",
+      "created": "2026-06-23 00:00",
+      "link": "https://mp.weixin.qq.com/s/ubV4OhWVTBJ4Xwp1VjT6Iw",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "物理学院“前沿物理与精密光谱波谱” 2026年优秀大学生夏令营活动招生公告",
+      "created": "2026-06-23 00:00",
+      "link": "https://phy.ecnu.edu.cn/b5/96/c5679a767382/page.htm",
+      "author": "物理与电子科学学院",
+      "avatar": "./assets/phy.webp"
+    },
+    {
+      "title": "华东师范大学公共管理学院校友联谊会成立公告（第1号）",
+      "created": "2026-06-22 00:00",
+      "link": "https://mp.weixin.qq.com/s/L3rys81i4zBuII5tfzNFgQ",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "第三届城市更新与公共政策研讨会会议议程",
+      "created": "2026-06-22 00:00",
+      "link": "https://mp.weixin.qq.com/s/BiWCbv8oCX8_zrNWv4OYEw",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "2026年华东师范大学化学与分子工程学院 “全国优秀大学生夏令营”活动方案",
+      "created": "2026-06-18 00:00",
+      "link": "https://chem.ecnu.edu.cn/b4/12/c26579a766994/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "关于开展2026年“青苗谨严”奖学金申报工作的通知",
+      "created": "2026-06-18 00:00",
+      "link": "https://sees.ecnu.edu.cn/b4/21/c41127a767009/page.htm",
+      "author": "生态与环境科学学院",
+      "avatar": "./assets/sees.webp"
+    },
+    {
+      "title": "通知 | 2026年华东师大统计学院研究生暑期学校招生简章",
+      "created": "2026-06-16 00:00",
+      "link": "https://stat.ecnu.edu.cn/b3/27/c9708a766759/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "华东师范大学药学院2027年强基转段接收细则",
+      "created": "2026-06-15 00:00",
+      "link": "https://pharm.ecnu.edu.cn/b2/a0/c43776a766624/page.htm",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "【公示】2026年“城市与文化发展”四地书院（西安站）学员名单公示",
+      "created": "2026-06-11 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/af/40/c29520a765760/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "华东师范大学2026年“高校思想政治理论课教师在职攻读马克思主义理论博士专项计划”招生公告（第二批次）",
+      "created": "2026-06-11 00:00",
+      "link": "https://mks.ecnu.edu.cn/af/a8/c2707a765864/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "华东师范大学美术学院研究生招生预公告",
+      "created": "2026-06-10 00:00",
+      "link": "https://art.ecnu.edu.cn/ae/8a/c45236a765578/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "2026 年国家创新型人才国际合作培养项目——安全可信的智能软件与系统拔尖 人才培养项目(第二批)拟...",
+      "created": "2026-06-08 00:00",
+      "link": "https://sei.ecnu.edu.cn/ad/16/c33171a765206/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "哲学系2025级拔尖计划学生选拔（含2024级补录）工作方案",
+      "created": "2026-06-08 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/ad/59/c36259a765273/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "华东师范大学大夏书院AI+超学科创造营2.0获奖公示",
+      "created": "2026-06-05 00:00",
+      "link": "https://dx.ecnu.edu.cn/aa/41/c8323a764481/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "心理与认知科学学院2027年硕士研究生招生考试相关变化预公告",
+      "created": "2026-06-05 00:00",
+      "link": "https://psy.ecnu.edu.cn/aa/0c/c17481a764428/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "【公示】2026年“光荣在党50年”纪念章颁发对象补充公示名单",
+      "created": "2026-06-04 00:00",
+      "link": "https://ed.ecnu.edu.cn/a8/03/c45918a763907/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "华东师范大学“晨光书韵・青春共读”校园晨读活动获奖名单公示",
+      "created": "2026-06-03 00:00",
+      "link": "https://dx.ecnu.edu.cn/a6/de/c8323a763614/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "华东师范大学“哲学之道”第二十二届博士生学术论坛优秀论文公示",
+      "created": "2026-05-30 00:00",
+      "link": "http://www.philo.ecnu.edu.cn/a4/4f/c36259a762959/page.htm",
+      "author": "哲学系",
+      "avatar": "./assets/philo.webp"
+    },
+    {
+      "title": "华东师范大学计算机科学与技术学院 2026年暑期青少年“人工智能与创新实践”探索营",
+      "created": "2026-05-29 00:00",
+      "link": "https://cs.ecnu.edu.cn/a4/0c/c19867a762892/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-05-27 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/a2/82/c18349a762498/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "申报启动！2026「科学回家」卓越实践重磅开启",
+      "created": "2026-05-26 00:00",
+      "link": "https://mp.weixin.qq.com/s/Gnm8TLSWzKjMWczjyS1aOA",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "2026年华东师范大学空间人工智能学院博士生招生工作办法（春季第二批次）",
+      "created": "2026-05-25 00:00",
+      "link": "https://geoai.ecnu.edu.cn/a1/19/c48289a762137/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "【公示】2026年“城市与文化发展：聚焦上海与澳门”暑期互访项目入选名单",
+      "created": "2026-05-25 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/a1/a0/c29520a762272/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "华东师范大学公共管理学院2027年研究生招生线上宣讲会",
+      "created": "2026-05-25 00:00",
+      "link": "https://mp.weixin.qq.com/s/qMcSLkR3Z45hyb0jN1RMSA",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "境外研学 | 2026年香港大学暑期短期研学项目招募通知",
+      "created": "2026-05-25 00:00",
+      "link": "https://mp.weixin.qq.com/s/F4i-lQ4Ju06RVU1hCrd63w",
+      "author": "公共管理学院",
+      "avatar": "./assets/spm.webp"
+    },
+    {
+      "title": "教育学部关于2026年上半年入团发展对象的公示",
+      "created": "2026-05-22 00:00",
+      "link": "https://ed.ecnu.edu.cn/a0/a4/c45918a762020/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "【公示】孟宪承书院2026暑期四校联合服务学习名单",
+      "created": "2026-05-21 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/a0/32/c29520a761906/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "关于评选2025-2026 学年华东师范大学大夏书院 优秀课程主管和优秀课程运维官的通知",
+      "created": "2026-05-20 00:00",
+      "link": "https://dx.ecnu.edu.cn/9e/30/c8323a761392/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-05-18 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/9c/64/c18354a760932/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "关于推选共青团华东师范大学教育学部第三次代表大会代表的通知",
+      "created": "2026-05-15 00:00",
+      "link": "https://ed.ecnu.edu.cn/9b/48/c45918a760648/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "关于推选共青团华东师范大学教育学部第三届委员会委员候选人预备人选的通知",
+      "created": "2026-05-15 00:00",
+      "link": "https://ed.ecnu.edu.cn/9b/47/c45918a760647/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "关于推选华东师范大学教育学部第八次学生代表大会学生代表的通知",
+      "created": "2026-05-15 00:00",
+      "link": "https://ed.ecnu.edu.cn/9b/46/c45918a760646/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "关于推选华东师范大学教育学部第八次研究生代表大会研究生代表的通知",
+      "created": "2026-05-15 00:00",
+      "link": "https://ed.ecnu.edu.cn/9b/44/c45918a760644/page.htm",
+      "author": "教育学部",
+      "avatar": "./assets/ed.webp"
+    },
+    {
+      "title": "闪“药”未来，逐梦师大！2027研究生招生线上宣讲会即将开启",
+      "created": "2026-05-15 00:00",
+      "link": "https://mp.weixin.qq.com/s/XjJspzx8M-_EfLexGvvdCg",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "我院2025-2026学年春季学期学术学位博士生创新成果公示（三）",
+      "created": "2026-05-15 00:00",
+      "link": "https://psy.ecnu.edu.cn/9b/58/c17481a760664/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "2025年度福建省科学技术奖拟提名项目公示",
+      "created": "2026-05-14 00:00",
+      "link": "https://stat.ecnu.edu.cn/95/b0/c9708a759216/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "华东师范大学统计学院2026年面向港澳台地区招收攻读硕士学位研究生复试录取实施细则",
+      "created": "2026-05-14 00:00",
+      "link": "https://stat.ecnu.edu.cn/9a/f6/c9708a760566/page.htm",
+      "author": "统计学院",
+      "avatar": "./assets/stat.webp"
+    },
+    {
+      "title": "华东师范大学药学院2026年港澳台地区硕士研究生招生复试工作实施细则",
+      "created": "2026-05-13 00:00",
+      "link": "https://pharm.ecnu.edu.cn/9a/bf/c43776a760511/page.htm",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "华东师范大学心理与认知科学学院2026年港澳台地区研究生招生复试录取实施细则",
+      "created": "2026-05-13 00:00",
+      "link": "https://psy.ecnu.edu.cn/9a/6f/c17481a760431/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "2026年软件工程学院 面向香港、澳门、台湾地区研究生复试录取工作实施细则",
+      "created": "2026-05-12 00:00",
+      "link": "https://sei.ecnu.edu.cn/99/e5/c33171a760293/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "2026年度计算机学院本科生教学改革培育项目立项名单公示",
+      "created": "2026-05-11 00:00",
+      "link": "https://cs.ecnu.edu.cn/99/7b/c19867a760187/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "关于组织关系转入我校的工作提示与常见问题（2026年5月）",
+      "created": "2026-05-11 00:00",
+      "link": "https://sei.ecnu.edu.cn/83/97/c33171a361367/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "我院2025-2026学年春季学期学术学位博士生创新成果公示（二）",
+      "created": "2026-05-11 00:00",
+      "link": "https://psy.ecnu.edu.cn/99/38/c17481a760120/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-05-09 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/98/8d/c18349a759949/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "化学与分子工程学院 2025-2026 学年第二学期博士研究生科研成果审核公示",
+      "created": "2026-04-30 00:00",
+      "link": "https://chem.ecnu.edu.cn/95/72/c26579a759154/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "华东师范大学2026年“高校思想政治工作骨干在职攻读博士学位专项计划”招生公告",
+      "created": "2026-04-27 00:00",
+      "link": "https://mks.ecnu.edu.cn/92/74/c2707a758388/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "2026年华东师范大学空间人工智能学院博士生招生工作办法（春季批次）",
+      "created": "2026-04-23 00:00",
+      "link": "https://geoai.ecnu.edu.cn/8f/84/c48289a757636/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "华东师范大学药学院2026年博士研究生招生工作细则-春季批次",
+      "created": "2026-04-22 00:00",
+      "link": "https://pharm.ecnu.edu.cn/8e/aa/c43776a757418/page.htm",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "华东师范大学软件工程学院 2026 年春季批次博士研究生招生公告 （硕博连读生、普通申请—考核）",
+      "created": "2026-04-21 00:00",
+      "link": "https://sei.ecnu.edu.cn/8b/dc/c33171a756700/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "华东师范大学化学与分子工程学院2026年博士研究生招生工作细则-春季批次",
+      "created": "2026-04-21 00:00",
+      "link": "https://chem.ecnu.edu.cn/8b/df/c26579a756703/page.htm",
+      "author": "化学与分子工程学院",
+      "avatar": "./assets/chem.webp"
+    },
+    {
+      "title": "心理与认知科学学院2026年春季批次博士研究生招生工作办法（硕博连读、普通申请—考核）",
+      "created": "2026-04-21 00:00",
+      "link": "https://psy.ecnu.edu.cn/8c/4e/c17481a756814/page.htm",
+      "author": "心理与认知科学学院",
+      "avatar": "./assets/psy.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-04-21 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/8c/2c/c18354a756780/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "华东师范大学2026年“高校思想政治理论课教师在职攻读马克思主义理论博士专项计划”招生公告",
+      "created": "2026-04-20 00:00",
+      "link": "https://mks.ecnu.edu.cn/8b/96/c2707a756630/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "关于软件工程学院申报2026年华东师范大学本科教学优秀奖推荐人选的公示",
+      "created": "2026-04-14 00:00",
+      "link": "https://sei.ecnu.edu.cn/87/0b/c33171a755467/page.htm",
+      "author": "软件工程学院",
+      "avatar": "./assets/sei.webp"
+    },
+    {
+      "title": "计算机学院2026年度本科教学优秀奖推荐人选公示",
+      "created": "2026-04-13 00:00",
+      "link": "https://cs.ecnu.edu.cn/86/a7/c19867a755367/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "计算机科学与技术学院2026年度研究生优秀毕业生评选结果公示",
+      "created": "2026-04-13 00:00",
+      "link": "https://cs.ecnu.edu.cn/86/41/c19867a755265/page.htm",
+      "author": "计算机科学与技术学院",
+      "avatar": "./assets/cs.webp"
+    },
+    {
+      "title": "公示 | 数据科学与工程学院 2026年度优秀毕业生评选推荐结果",
+      "created": "2026-04-13 00:00",
+      "link": "https://dase.ecnu.edu.cn/86/e9/c41465a755433/page.htm",
+      "author": "数据科学与工程学院",
+      "avatar": "./assets/dase.webp"
+    },
+    {
+      "title": "马克思主义学院2026年硕士研究生招生调剂复试名单",
+      "created": "2026-04-10 00:00",
+      "link": "https://mks.ecnu.edu.cn/85/f7/c2707a755191/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "关于举办第十届马克思主义学院“育师杯”教学技能创新大赛的通知",
+      "created": "2026-04-02 00:00",
+      "link": "https://mks.ecnu.edu.cn/7a/32/c2707a752178/page.htm",
+      "author": "马克思主义学院",
+      "avatar": "./assets/mks.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2026年度优秀毕业生候选人评选结果公示",
+      "created": "2026-04-01 00:00",
+      "link": "https://geoai.ecnu.edu.cn/79/a0/c48289a752032/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-30 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/75/89/c18354a750985/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-30 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/75/88/c18354a750984/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院2026年硕士研究生招生复试结果公布",
+      "created": "2026-03-30 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/75/71/c37979a750961/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "华东师范大学空间人工智能学院2026年度优秀毕业生评选细则",
+      "created": "2026-03-26 00:00",
+      "link": "https://geoai.ecnu.edu.cn/71/03/c48289a749827/page.htm",
+      "author": "空间人工智能学院",
+      "avatar": "./assets/geoai.webp"
+    },
+    {
+      "title": "药学院2026年度研究生优秀毕业生评选实施细则",
+      "created": "2026-03-26 00:00",
+      "link": "https://pharm.ecnu.edu.cn/71/1e/c43776a749854/page.htm",
+      "author": "药学院",
+      "avatar": "./assets/pharm.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-25 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/70/6b/c18349a749675/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-24 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/6f/1b/c18354a749339/page.htm",
+      "author": "学科竞赛",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院2026年硕士研究生招生复试录取工作实施细则",
+      "created": "2026-03-20 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/6e/07/c37979a749063/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-18 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/6a/9c/c18349a748188/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "【公示】孟宪承书院2026年四地书院交流项目上海站入选名单",
+      "created": "2026-03-11 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/66/7e/c29520a747134/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "",
+      "created": "2026-03-02 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/5d/3c/c18349a744764/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "【公示】关于华东师范大学孟宪承书院紫江公益·未来教师创益专项奖学金推荐名单的公示",
+      "created": "2025-12-23 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/41/a4/c29520a737700/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "【公示】孟宪承书院2026年四地书院交流项目澳门站入选名单",
+      "created": "2025-11-24 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/26/75/c29520a730741/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "关于评选华东师范大学孟宪承书院紫江公益•未来教师创益专项奖学金的通知",
+      "created": "2025-11-18 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/1b/87/c29520a727943/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "美术学院2026年博士研究生招生工作办法",
+      "created": "2025-11-14 00:00",
+      "link": "https://art.ecnu.edu.cn/19/e7/c45236a727527/page.htm",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "华东师范大学体育与健康学院2026年博士研究生招生申请考核工作办法（专业学位）",
+      "created": "2025-11-14 00:00",
+      "link": "https://tyxx.ecnu.edu.cn/19/a0/c37979a727456/page.htm",
+      "author": "体育与健康学院",
+      "avatar": "./assets/tyxx.webp"
+    },
+    {
+      "title": "【公示】2024-2025学年孟宪承书院“臻善”励志奖学金评选人员调整公示",
+      "created": "2025-11-10 00:00",
+      "link": "https://mxcsy.ecnu.edu.cn/12/09/c29520a725513/page.htm",
+      "author": "孟宪承书院",
+      "avatar": "./assets/mxcsy.webp"
+    },
+    {
+      "title": "华东师范大学大夏书院第六届“圆梦浙里”奖学金获奖名单公示",
+      "created": "2025-10-31 00:00",
+      "link": "https://dx.ecnu.edu.cn/0b/56/c8323a723798/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "2025年“科学回家”卓越实践项目评审结果公示",
+      "created": "2025-10-17 00:00",
+      "link": "http://www.ghcollege.ecnu.edu.cn/fe/d9/c8609a720601/page.htm",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "",
+      "created": "2025-10-17 00:00",
+      "link": "http://www.cxcy.ecnu.edu.cn/fe/ac/c18349a720556/page.htm",
+      "author": "本科生创新创业教育网",
+      "avatar": "./assets/cxcy.webp"
+    },
+    {
+      "title": "【公告】2025年10月份地球科学学部新增硕士生指导教师名单公告",
+      "created": "2025-10-15 00:00",
+      "link": "https://dxb.ecnu.edu.cn/ff/12/c18277a720658/page.htm",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "关于 2024-2025学年“青春筑梦想 科技创辉煌”华东师范大学港澳台学生主题征文评选结...",
+      "created": "2025-06-20 00:00",
+      "link": "https://dx.ecnu.edu.cn/bb/7b/c8323a703355/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "华东师范大学大夏书院2024-2025学年 优秀课程主管、课程运维官公示",
+      "created": "2025-06-06 00:00",
+      "link": "https://dx.ecnu.edu.cn/af/7c/c8323a700284/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "2025年“科学回家”卓越实践项目立项公示",
+      "created": "2025-06-06 00:00",
+      "link": "http://www.ghcollege.ecnu.edu.cn/af/1c/c8609a700188/page.htm",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "展览预告 | 光华翰墨 承志流芳——纪念光华大学建校百年美术与书法...",
+      "created": "2025-05-26 00:00",
+      "link": "https://mp.weixin.qq.com/s/sF3W2mgsdz-ysS_EP3LH-w",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "【活动招募】2025“深蓝探索杯”海洋未来之星演讲比赛开启！用声音守护蔚蓝海洋！",
+      "created": "2025-05-08 00:00",
+      "link": "https://dxb.ecnu.edu.cn/80/70/c18277a688240/page.htm",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "申报启动！2025“科学回家”卓越实践等你来",
+      "created": "2025-04-28 00:00",
+      "link": "https://mp.weixin.qq.com/s/hJWVgDY4PH-ROvglj7B6Nw",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "征稿启事丨华东师范大学纪念光华大学建校百年书画作品展作品征集",
+      "created": "2025-03-24 00:00",
+      "link": "https://mp.weixin.qq.com/s/I_DNIMNeYijKIfc-kSmjeg",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "追光、思辨、成长，他们在这里表达自我",
+      "created": "2025-03-21 00:00",
+      "link": "https://mp.weixin.qq.com/s/BIn1AHewL9IceP5smUimHA",
+      "author": "光华书院",
+      "avatar": "./assets/ghcollege.jpeg"
+    },
+    {
+      "title": "地理高峰学科特聘教授新获批名单公示",
+      "created": "2025-03-14 00:00",
+      "link": "https://dxb.ecnu.edu.cn/58/b7/c18277a678071/page.htm",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "用人单位邀约丨华东师范大学音体美2025年春季联合校园招聘会公告",
+      "created": "2025-03-10 00:00",
+      "link": "https://mp.weixin.qq.com/s/6dSp9QGY3tOsLn6VSXlHlw",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "2025年华东师范大学华美研究生论坛征稿启事",
+      "created": "2024-12-10 00:00",
+      "link": "https://mp.weixin.qq.com/s/LLewVRgCMUgmfG184cK6lg?token=706101521&lang=zh_CN",
+      "author": "美术学院",
+      "avatar": "./assets/art.webp"
+    },
+    {
+      "title": "会议通知丨第二届（2024）世界地理大会通知（第一号）",
+      "created": "2024-11-01 00:00",
+      "link": "https://dxb.ecnu.edu.cn/f1/73/c18277a651635/page.htm",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "华东师范大学大夏书院第五届“圆梦浙里”奖学金获奖名单公示",
+      "created": "2024-09-27 00:00",
+      "link": "https://dx.ecnu.edu.cn/a5/f0/c8323a632304/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "华东师范大学大夏书院2023-2024学年 优秀课程主管、课程运维官公示",
+      "created": "2024-05-20 00:00",
+      "link": "https://dx.ecnu.edu.cn/d0/58/c8323a708696/page.htm",
+      "author": "大夏书院",
+      "avatar": "./assets/dx.webp"
+    },
+    {
+      "title": "【会议】5月13日 FEC 2024学术沙龙邀您参与",
+      "created": "2024-05-08 00:00",
+      "link": "https://mp.weixin.qq.com/s/zOgpnqpJGRIz1_s1KgIgew",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "第22届中国水色遥感大会（第三轮会议正式通知）",
+      "created": "2024-04-10 00:00",
+      "link": "https://mp.weixin.qq.com/s/wK0piQnkicFnRrgojuJXGg",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "第22届中国水色遥感大会（第二轮会议正式通知）",
+      "created": "2024-04-07 00:00",
+      "link": "https://mp.weixin.qq.com/s/Rh4bq8ZmDN12cvQpDgB0Jw",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    },
+    {
+      "title": "【会议】参与“海洋十年”进校园，携手迎接蓝色未来",
+      "created": "2024-01-08 00:00",
+      "link": "https://mp.weixin.qq.com/s/ls9yOQ-e-aNcyeBW_d9D6w",
+      "author": "地球科学学部",
+      "avatar": "./assets/dxb.webp"
+    }
+  ]
+}
